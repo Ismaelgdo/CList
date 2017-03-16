@@ -149,23 +149,7 @@ void List::remove(int value)
 	}
 
 }
-/*
-{
-	//remove the first ocurrence of an item on a list
-	size_--;
-	int i;
-	int k;
-	for (i = 0; i < size_; ++i) {
-		if (value == data_[i]) {
-			for (k = 1; k < size_ - 1; ++k) {
-				data_[k] = data_[k + 1];
-}
-		}
-	}
-	
-}
 
-*/
 std::ostream& operator<<(std::ostream& os, List& l)
 {
 	size_t i;
